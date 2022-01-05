@@ -103,7 +103,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem;
+  padding: 10rem;
   background-color: rgb(207, 207, 207);
   background-image: linear-gradient(
       to bottom,
@@ -147,7 +147,6 @@ a {
 .right {
   display: flex;
   flex-direction: column;
-  margin-right: 10rem;
   padding: 1.5rem;
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
@@ -381,6 +380,7 @@ hr {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    padding: 3rem;
   }
 
   .left {
@@ -393,10 +393,6 @@ hr {
 
   .left-button a {
     font-size: 0.8rem;
-  }
-
-  .right {
-    margin: 0 auto;
   }
 
   .right-button {
