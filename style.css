@@ -259,13 +259,12 @@ hr {
 .service-list {
   display: flex;
   justify-items: center;
-  /* padding: 0.5rem; */
 }
 
 .service-item {
   display: flex;
   align-items: center;
-
+  height: 100px;
   padding: 1.7rem;
   border-radius: 4px;
   margin: 1rem auto;
@@ -450,8 +449,7 @@ hr {
   }
 
   .service-item {
-    padding: 1rem;
-    height: 80px;
+    padding: 1.5rem;
   }
 
   .desc h3 {
