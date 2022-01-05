@@ -36,6 +36,7 @@ a {
 
 .nav-logo-link {
   color: black;
+  display: flex;
 }
 
 .nav-easy {
@@ -105,7 +106,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10rem;
+  padding: 3rem 10rem;
   background-color: rgb(207, 207, 207);
   background-image: linear-gradient(
       to bottom,
@@ -149,7 +150,7 @@ a {
 .right {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
   color: rgb(26, 26, 26);
@@ -157,13 +158,13 @@ a {
 
 .right-header {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .right-input {
   margin-bottom: 0.5rem;
-  padding: 0.7rem;
+  padding: 1rem;
   font-family: "Montserrat";
   border-radius: 8px;
   border: none;
@@ -258,16 +259,17 @@ hr {
 .service-list {
   display: flex;
   justify-items: center;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 
 .service-item {
   display: flex;
   align-items: center;
+
   padding: 1.7rem;
   border-radius: 4px;
   margin: 1rem auto;
-  box-shadow: 2px 2px 4px rgb(29, 29, 29);
+  box-shadow: 0 2px 4px rgb(29, 29, 29);
   transition: 0.4s;
 }
 
@@ -449,6 +451,7 @@ hr {
 
   .service-item {
     padding: 1rem;
+    height: 80px;
   }
 
   .desc h3 {
