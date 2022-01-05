@@ -168,8 +168,9 @@ a {
   border-radius: 8px;
   border: none;
   font-size: 0.7rem;
-  outline-color: red;
+  color: #fff;
   background-color: rgb(19, 19, 19);
+  outline-color: red;
 }
 
 .right-input::placeholder {
