@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
 
-
 * {
   padding: 0;
   margin: 0;
@@ -369,13 +368,15 @@ hr {
     display: none;
   }
 
- .nav-logo-link {
-    margin: 0 auto;
+  .nav-bar {
+    padding: 1rem;
   }
 
   .nav-logo {
-    font-size: 1.2rem;
+    flex-direction: column;
+    font-size: 1rem;
     text-align: center;
+    margin: 0 auto;
   }
 
   .nav-button {
@@ -428,6 +429,10 @@ hr {
     padding: 0.5rem;
   }
 
+  .about-header {
+    font-size: 1.8rem;
+  }
+
   .about-text {
     max-width: 100%;
     font-size: 0.8rem;
@@ -458,7 +463,7 @@ hr {
   }
 
   .bottom-container {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -470,6 +475,10 @@ hr {
 
   .bottom-logo {
     flex-direction: column;
+  }
+
+  .bottom-desc {
+    text-align: center;
   }
 
   .bottom-logo i {
